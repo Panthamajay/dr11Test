@@ -1,6 +1,30 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Transform: AWS::Serverless-2016-10-31
 Resources:
+  dr11-userwalletdb: 
+    Type: AWS::DynamoDB::Table
+    Properties: 
+      AttributeDefinitions: 
+        - 
+          AttributeName: "name"
+          AttributeType: "S"
+        - 
+          AttributeName: "balance"
+          AttributeType: "S"
+        - 
+          AttributeName: "dob"
+          AttributeType: "S"
+        - 
+          AttributeName: "email"
+          AttributeType: "S"
+      KeySchema: 
+        - 
+          AttributeName: "name"
+          KeyType: "HASH"
+      ProvisionedThroughput: 
+        ReadCapacityUnits: "5"
+        WriteCapacityUnits: "5"
+      TableName: "dr11-userwalletdb"
   Dream11Gateway:
     Type: AWS::Serverless::Api
     Properties:
