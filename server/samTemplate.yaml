@@ -954,7 +954,7 @@ Resources:
       FunctionName: listmatches
       Handler: lambda_function.lambda_handler
       Runtime: python3.7
-      CodeUri: ./server/dr11-listmatches.zip
+      CodeUri: ./dr11-listmatches.zip
       Description: ''
       MemorySize: 128
       Timeout: 123
@@ -975,7 +975,7 @@ Resources:
       FunctionName: fetchdata
       Handler: lambda_function.lambda_handler
       Runtime: python3.7
-      CodeUri: ./server/dr11-fetchdata.zip
+      CodeUri: ./dr11-fetchdata.zip
       Description: ''
       MemorySize: 128
       Timeout: 659
@@ -996,7 +996,7 @@ Resources:
       FunctionName: userprofile
       Handler: lambda_function.lambda_handler
       Runtime: python3.7
-      CodeUri: ./server/dr11-userprofile.zip
+      CodeUri: ./dr11-userprofile.zip
       Description: ''
       MemorySize: 1088
       Timeout: 218
@@ -1022,7 +1022,7 @@ Resources:
       FunctionName: mymatches
       Handler: lambda_function.lambda_handler
       Runtime: python3.7
-      CodeUri: ./server/dr11-mymatches.zip
+      CodeUri: ./dr11-mymatches.zip
       Description: ''
       MemorySize: 1920
       Timeout: 137
@@ -1048,7 +1048,7 @@ Resources:
       FunctionName: usermatchreg
       Handler: lambda_function.lambda_handler
       Runtime: python3.7
-      CodeUri: ./server/dr11-user-match-reg.zip
+      CodeUri: ./dr11-user-match-reg.zip
       Description: ''
       MemorySize: 1408
       Timeout: 340
@@ -1069,7 +1069,7 @@ Resources:
       FunctionName: updateuserwallet
       Handler: lambda_function.lambda_handler
       Runtime: python3.7
-      CodeUri: ./server/dr11-updateuserwallet.zip
+      CodeUri: ./dr11-updateuserwallet.zip
       Description: ''
       MemorySize: 1024
       Timeout: 215
@@ -1090,7 +1090,7 @@ Resources:
       FunctionName: ballbyball
       Handler: lambda_function.lambda_handler
       Runtime: python3.7
-      CodeUri: ./server/dr11-ballbyball.zip
+      CodeUri: ./dr11-ballbyball.zip
       Description: ''
       MemorySize: 704
       Timeout: 183
@@ -1111,7 +1111,7 @@ Resources:
       FunctionName: fetchplayerdata
       Handler: lambda_function.lambda_handler
       Runtime: python3.7
-      CodeUri: ./server/fetch_player_data.zip
+      CodeUri: ./fetch_player_data.zip
       Description: ''
       MemorySize: 1280
       Timeout: 210
@@ -1132,7 +1132,7 @@ Resources:
       FunctionName: leaderboardbymatch
       Handler: lambda_function.lambda_handler
       Runtime: python3.7
-      CodeUri: ./server/leaderboard_by_match.zip
+      CodeUri: ./leaderboard_by_match.zip
       Description: ''
       MemorySize: 1024
       Timeout: 100
@@ -1167,7 +1167,7 @@ Resources:
       FunctionName: myopponentsteam
       Handler: lambda_function.lambda_handler
       Runtime: python3.7
-      CodeUri: ./server/my_opponents_team.zip
+      CodeUri: ./my_opponents_team.zip
       Description: ''
       MemorySize: 1280
       Timeout: 340
@@ -1188,7 +1188,7 @@ Resources:
       FunctionName: privatematches
       Handler: lambda_function.lambda_handler
       Runtime: python3.7
-      CodeUri: ./server/private_match.zip
+      CodeUri: ./private_match.zip
       Description: ''
       MemorySize: 384
       Timeout: 183
@@ -1209,7 +1209,7 @@ Resources:
       FunctionName: publicmatches
       Handler: lambda_function.lambda_handler
       Runtime: python3.7
-      CodeUri: ./server/dr11-publicmatcheslist.zip
+      CodeUri: ./dr11-publicmatcheslist.zip
       Description: ''
       MemorySize: 128
       Timeout: 123
@@ -1230,7 +1230,7 @@ Resources:
       FunctionName: userdata
       Handler: lambda_function.lambda_handler
       Runtime: python3.7
-      CodeUri: ./server/user_data.zip
+      CodeUri: ./user_data.zip
       Description: ''
       MemorySize: 1536
       Timeout: 340
@@ -1251,7 +1251,7 @@ Resources:
       FunctionName: aftermatchupdatewalletandstatus
       Handler: lambda_function.lambda_handler
       Runtime: python3.7
-      CodeUri: ./server/after_match_update_wallet_and_status.zip
+      CodeUri: ./after_match_update_wallet_and_status.zip
       Description: ''
       MemorySize: 1344
       Timeout: 345
@@ -1272,7 +1272,7 @@ Resources:
       FunctionName: livescore
       Handler: lambda_function.lambda_handler
       Runtime: python3.7
-      CodeUri: ./server/live_score.zip
+      CodeUri: ./live_score.zip
       Description: ''
       MemorySize: 832
       Timeout: 183
