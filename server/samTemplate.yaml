@@ -8,15 +8,6 @@ Resources:
         - 
           AttributeName: "name"
           AttributeType: "S"
-        - 
-          AttributeName: "balance"
-          AttributeType: "S"
-        - 
-          AttributeName: "dob"
-          AttributeType: "S"
-        - 
-          AttributeName: "email"
-          AttributeType: "S"
       KeySchema: 
         - 
           AttributeName: "name"
